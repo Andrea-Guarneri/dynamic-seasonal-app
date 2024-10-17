@@ -6,9 +6,17 @@ Welcome to my GitHub! I'm passionate about **front-end development** and am curr
 
 I’m building a solid foundation in JavaScript by working on real-world solutions and adopting a professional approach to code. Below is one of the key projects I’m actively working on:
 
-## 🌼 Dynamic-seasonal-app 🌸❄️☀️🍂
+## 🌼 Dynamic Seasonal App 🌸❄️☀️🍂
 
 This interactive web application allows users to input the current month (in numerical format) and dynamically displays the corresponding month name, season, and a themed background image. The app enhances user interaction and visual appeal using **JavaScript** and **Tailwind CSS**.
+
+### 🌐 Live Demo
+
+You can view this app live on Netlify: [Dynamic Seasonal App](https://dynamic-seasonal-app.netlify.app/)
+
+### 📱 Fully Responsive Design
+
+The site is fully responsive, adapting to different screen sizes, from mobile devices to large desktops, using **Tailwind CSS** responsive utility classes. The layout, images, and text automatically adjust to provide an optimal viewing experience across various devices.
 
 ### 🌟 Key Features
 
