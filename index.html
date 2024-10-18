@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,16 +17,19 @@
     <title>Dynamic Seasonal App</title>
 </head>
 
-<body id="body" class="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-indigo-600 via-purple-500 to-pink-600 p-4">
+<body id="body"
+    class="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-indigo-600 via-purple-500 to-pink-600 px-8 sm:px-0">
     <!-- Container -->
-    <div id="card-output" class="rounded-lg shadow-xl bg-gray-200 p-6 max-w-5xl w-full sm:w-3/4 md:w-2/3 lg:w-1/2 mx-auto">
-        
-        <!-- Image-output -->
-        <img id="image-output" alt="image corresponding to the season" 
-             class="w-full h-auto max-h-[400px] sm:max-h-[500px] md:max-h-[550px] lg:max-h-[700px] object-cover rounded">
-        
+    <div id="card-output" class="rounded-lg shadow-xl bg-gray-200 p-6 w-full sm:w-3/4 md:w-2/3 lg:w-1/2 max-w-5xl">
+
+        <!-- Card-Image -->
+        <div class="w-full max-h-[600px] overflow-hidden mb-4">
+            <!-- Image-output -->
+            <img id="image-output" alt="image corresponding to the season" class="h-full w-full object-cover">
+        </div>
+
         <!-- Text-output -->
-        <h2 id="text-season" class="text-lg text-black font-sans font-semibold text-center mt-4 sm:text-xl md:text-2xl lg:text-3xl">
+        <h2 id="text-season" class="font-sans text-black  font-semibold text-center text-xl sm:text-2xl 2xl:text-3xl">
             <!-- Dynamic text for season -->
         </h2>
     </div>
@@ -34,4 +38,5 @@
     <script src="index.js"></script>
 
 </body>
+
 </html>

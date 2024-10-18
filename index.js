@@ -106,17 +106,17 @@ if (monthNumber >= 1 && monthNumber <= 3) {
   if (monthNumber >= 4 && monthNumber <= 6) {
     seasonName = "Spring"; // Between 4 and 6, it's spring
     seasonImage = springImage;
-    seasonColor = springColor; 
+    seasonColor = springColor;
   } else {
     if (monthNumber >= 7 && monthNumber <= 9) {
       seasonName = "Summer"; // Between 7 and 9, it's summer
-      seasonImage = summerImage; 
-      seasonColor = summerColor; 
+      seasonImage = summerImage;
+      seasonColor = summerColor;
     } else {
       if (monthNumber >= 10 && monthNumber <= 12) {
         seasonName = "Fall"; // Between 10 and 12, it's fall
-        seasonImage = fallImage; 
-        seasonColor = fallColor; 
+        seasonImage = fallImage;
+        seasonColor = fallColor;
       } else {
         // If no season is assigned (error)
         seasonImage = errorImage; // Assigning an error image
@@ -133,7 +133,7 @@ var seasonImageOutput = document.getElementById("image-output");
 var seasonText = document.getElementById("text-season");
 
 // Changing the background color of the body according to the season
-body.className = "flex flex-col items-center justify-center h-screen " + seasonColor;
+body.className += " " + seasonColor;
 
 // Changing the season image on the page
 seasonImageOutput.setAttribute("src", seasonImage);
